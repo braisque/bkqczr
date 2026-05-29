@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Penumbra</title>
+	<link rel="stylesheet" href="../main.css">
+	<link rel="icon" href="/favicon.png">
+</head>
+
+
+<body>
+	<nav id="main_menu_placeholder"></nav>
+
+	<h1>Penumbra</h1>
+
+	<div id="comics-wrapper">
+		<div id="click-left" onclick="showPages(current - 1)"></div>
+		<div id="click-right" onclick="showPages(current + 1)"></div>
+
+		<div id="pageContainer">
+
+			<div class="pageDisplayed" id="page1"><img src="../../wip/c_1/02.jpg"></div>
+
+			<div class="pageHidden" id="page2"><img data-src="../../wip/c_1/page_01.png">
+				<div style="text-align: center; margin-left: 40%; margin-right: auto; position: absolute; top: 20%; font-size: 22px;">
+					<a onclick="showPages(5)">Chapitre I</a><br><br>
+					<a onclick="showPages(8)">Chapitre II</a><br><br>
+					<a onclick="showPages(5)">Chapitre III</a><br><br>
+					<a onclick="showPages(5)">Chapitre IV</a><br><br>
+					<a onclick="showPages(5)">Chapitre V</a><br><br>
+					<a onclick="showPages(5)">Chapitre VI</a><br><br>
+					<a onclick="showPages(5)">Chapitre VII</a><br><br>
+					<a onclick="showPages(5)">Chapitre VIII</a><br><br>
+					<a onclick="showPages(5)">Chapitre IX</a><br><br>
+					<a onclick="showPages(5)">Chapitre X</a><br><br>
+				</div>
+			</div>
+
+			<div class="pageHidden" id="page3"><img data-src="../../wip/c_1/02.jpg"></div>
+			<div class="pageHidden" id="page4"><img data-src="../../wip/c_1/03.jpg"></div>
+			<div class="pageHidden" id="page5"><img data-src="../../wip/c_1/04.jpg"></div>
+			<div class="pageHidden" id="page6"><img data-src="../../wip/c_1/05.jpg"></div>
+			<div class="pageHidden" id="page7"><img data-src="../../wip/c_1/06.jpg"></div>
+			<div class="pageHidden" id="page8"><img data-src="../../wip/c_1/07.jpg"></div>
+			<div class="pageHidden" id="page9"><img data-src="../../wip/c_1/08.jpg"></div>
+
+		</div>
+
+	</div>
+
+	<div id="pagination-container" data-pages="250" prev-chapter="penumbra_index.html" next-chapter="chapter_2.html"></div>
+
+	<hr>
+	<script src="../scripts/page_slicer.js"></script>
+	<script src="../scripts/page_switcher.js"></script>
+	<script src="../scripts/main_menu.js"></script>
+</body>
+
+
+</html>

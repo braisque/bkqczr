@@ -1,0 +1,255 @@
+@font-face {
+	font-family: "open_sans";
+	src: url('images/fonts/open_sans_regular.ttf');
+}
+
+@font-face {
+	font-family: "rubik_dirt";
+	src: url('images/fonts/rubik_dirt_regular.ttf');
+}
+
+:root {
+	--bg-color: #111111;
+	--text-color: #696969;
+	--highlight-color: #888888;
+	--nav-color: #555555;
+	--link-color: #494949;
+	--panel-color: #090909;
+}
+
+/* General */
+body {
+	background-color: var(--bg-color);
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p, ul, h3 {
+	font-size: 16px;
+	font-family: "open_sans";
+	line-height: 26px;
+	text-align: justify;
+	color: var(--text-color);
+	width: 800px;
+	text-indent: 60px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+ul {
+	padding-left: 0;
+	text-indent: 0;
+	list-style-position: inside;
+}
+
+h1 {
+	font-size: 22px;
+	text-align: center;
+	font-family: "rubik_dirt";
+	font-weight: normal;
+	color: var(--highlight-color);
+}
+
+h3 {
+	color: var(--highlight-color);
+	font-weight: normal;
+}
+
+hr {
+	border: 1px solid var(--text-color);
+	margin: 0px;
+}
+
+iframe {
+	border: none;
+	display: block;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1, ul, iframe, .needs-space-after, .banner, button {
+	margin-bottom: 20px;
+}
+
+.discreet-info-nav {
+	font-size: 14px;
+	font-family: "open_sans";
+	color: var(--nav-color);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.split-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Buttons and links */
+a, summary {
+	font-family: "open_sans";
+	text-decoration: none;
+	color: var(--link-color);
+	border: none;
+	cursor: pointer;
+}
+
+a:hover, summary:hover {
+	text-decoration: underline;
+	color: var(--highlight-color);
+	border: none;
+}
+
+details[open] summary~* {
+	background: var(--panel-color);
+	border-radius: 15px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+button {
+	font-size: 14px;
+	font-family: "open_sans";
+	color: var(--nav-color);
+	width: fit-content;
+	padding: 8px 16px;
+	background-color: var(--panel-color);
+	border: 1px solid var(--link-color);
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: var(--highlight-color);
+	border-color: var(--highlight-color);
+	background-color: var(--bg-color);
+	text-decoration: none;
+}
+
+#fullscreen-btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+}
+
+/* Index */
+.index-card-container {
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+}
+
+.h-v-centered {
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.index-title {
+	margin: 0px;
+}
+
+.index-quote {
+	width: 780px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.index-image:hover {
+	filter: brightness(30%);
+}
+
+/* Graphic works */
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.underlined-label {
+	text-decoration: underline;
+}
+
+.section-title-overlay {
+	position: absolute;
+	font-size: 20px;
+	font-family: "rubik_dirt";
+	color: var(--highlight-color);
+	font-weight: normal;
+	top: 50%;
+	left: 16px;
+	transform: translate(0%, -50%);
+	text-shadow: 2px 2px black;
+}
+
+/* Comics */
+#comics-wrapper {
+    position: relative;
+    width: min-content;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+#click-left, #click-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    cursor: pointer;
+}
+
+#click-left {
+    left: 0;
+}
+
+#click-right {
+    right: 0;
+}
+
+/* Short novels and texts pagination */
+.pageHidden {
+	display: none;
+}
+
+.pageDisplayed {
+	display: block;
+}
+
+.page {
+	font-size: 20px;
+	color: var(--text-color);
+	pointer-events: none;
+	text-decoration: none;
+}
+
+.page:before {
+	content: '['
+}
+
+.page:after {
+	content: ']'
+}
+
+.active:hover {
+	text-decoration: none;
+}
+
+/* Bar */
+#bar {
+	text-align: right;
+	margin-bottom: 14px;
+}
+
+#bar a:hover {
+	position: relative;
+	bottom: -3px;
+}

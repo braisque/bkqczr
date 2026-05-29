@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rencontrer Iphie</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="icon" href="../favicon.png">
+</head>
+
+
+<body>
+    <nav id="main_menu_placeholder"></nav>
+
+    <h1>Rencontrer Iphie</h1>
+
+    <div id="pageContainer">
+        <div class="pageDisplayed" id="page1">
+            <p>1. ÊTES-VOUS UN HOMME OU UNE FEMME&nbsp;?</p>
+            <p><a href="#" onclick="showPages(2)">> JE SUIS UNE FEMME (2)</a></p>
+            <p><a href="#" onclick="showPages(3)">> JE SUIS UN HOMME (3)</a></p>
+        </div>
+        <div class="pageHidden" id="page2">
+            <p>2. JE SUIS UNE FEMME</p>
+            <p>Non, pour cette fois vous serez un homme.</p>
+            <p><a href="#" onclick="showPages(3)">> JE SUIS UN HOMME (3)</a></p>
+        </div>
+        <div class="pageHidden" id="page3">
+            <p>3. JE SUIS UN HOMME</p>
+            <p>Oui. Vous êtes un homme. Et de même, vous n’avez pas choisi, vous avez grandi dans un petit hameau, et l’ennui et la mélancolie terminent de vous consumer.</p>
+            <p><a href="#" onclick="showPages(4)">> QUITTER LE HAMEAU (4)</a></p>
+        </div>
+        <div class="pageHidden" id="page4">
+            <p>4. QUITTER LE HAMEAU</p>
+            <p>Vous quittez votre hameau, les quelques seules maisons de ce royaume éternellement enneigé dans lequel vous avez grandi. Dans votre dos, au loin, la petite enceinte de chaux blanche qui vous protégeait s’efface petit à petit, dans la brume mais, cela, vous ne le voyez pas. Vous regardez droit devant vous, vous avancez. Vous savez que vous finirez par fatiguer&nbsp;; vous êtes comme un automate mécanique dont la clef a été longtemps tournée, et puis lâché par quelque ennuyé mélancolique, pour aller se perdre dans l’infinie blancheur de ces lieux. Voulait-on la sonder&nbsp;? Qu’êtes-vous alors&nbsp;? Rien qu’un jouet&nbsp;? Qui joue&nbsp;?</p>
+            <p><a href="#" onclick="showPages(5)">> RETOURNER AU HAMEAU (5)</a></p>
+            <p><a href="#" onclick="showPages(6)">> CONTINUER (6)</a></p>
+        </div>
+        <div class="pageHidden" id="page5">
+            <p>5. RETOURNER AU HAMEAU</p>
+            <p>Vous le voudriez, retourner au hameau. Vous ne le pouvez pas, cependant. Vous vous sentez devenir autre, devenir immuablement un autre. Vous ne croyez pas que l’on puisse perdre le contrôle de son corps, alors vous réfléchissez à ce qui vous empêche de repartir en arrière, alors même que les conditions climatiques empirent&nbsp;; quand l’humidité s’épaissit et quand la neige tente de vous recouvrir avec une insistance croissante. Vous n’êtes pas suicidaire, mais il vous semble être à un point de votre vie où il n’est plus d’occupation assez prenante, plus de diversion possible pour vous détourner de la réflexion portant sur le sens que vous devrez donner à votre vie. Et puis vous prenez des années... L’urgence s’installe. Dans le hameau d’où vous venez, ce n’est pas un autre ou son bonheur qui donnera une importance à votre existence. Il s’y trouve peu de monde, et il n’y a pas de partenaire pour vous. Tant mieux, vous vous dites. Vous n’êtes certain de rien, mais vous pensez que le couple serait une construction qui ne vous satisferait pas pour répondre à vos interrogations&nbsp;; ce serait là une autre diversion. Au hameau, où l’habitude et la routine se sont déroulées sans heurts, jamais, jamais de la mémoire des restants, et jamais des mémoires de ceux qui sont partis, vous avez été plus qu’un mort en puissance, ah, aussi mort qu’un mort peut l’être. Ce monde où vous n’aviez rien à développer, où rien ne serait développé, vous ne pouviez que le quitter. Au minimum, marchant vers une mort prématurée dans ces montagnes, vous aurez construit quelque chose d’unique, de consistant, de significatif dans l’esprit de ceux qui restèrent au hameau.</p>
+            <p><a href="#" onclick="showPages(6)">> CONTINUER (6)</a></p>
+        </div>
+        <div class="pageHidden" id="page6">
+            <p>6. CONTINUER</p>
+            <p>Un grand sillon s’ouvre devant vous. Les habitants du hameau s’en serve, ainsi que de quelques autres éléments, pour délimiter le périmètre dans lequel les enfants ont le droit d’aller&nbsp;; c’est que, en temps normal, l’entrée de ce sillon représente la distance maximum à laquelle on peut toujours voir le hameau. À propos de ce sillon, on raconte qu’il en existe un deuxième, évoluant en parallèle un demi kilomètre plus loin&nbsp;(bien qu’aucun des vivants ne sache le confirmer&nbsp;; l’on ne risque jamais de se perdre en s’aventurant si loin), toujours est-il que voici la raison pour laquelle au hameau l’on se réfère à ce sillon par «&nbsp;l’ornière&nbsp;», qui est plus court pour «&nbsp;l’ornière du tracteur du Diable&nbsp;».</p>
+            <p>Vous y pénétrez en ayant tout cela à l’esprit. Vous vous questionnez sur les origines de ce surnom, sur le sens que cela pouvait avoir, devait avoir d’en donner un tel à un sillon. Vous pensez certainement à plusieurs hypothèses. Dans l’une d’elles, vous voyez qu’il s’agissait de garder certains d’y entrer. Vous considérez l’hypothèse d’un danger.</p>
+            <p><a href="#" onclick="showPages(7)">> S’ARRÊTER ET RÉFLÉCHIR À CE DANGER (7)</a></p>
+            <p><a href="#" onclick="showPages(8)">> S’ENFONCER DANS L’ORNIÈRE DU TRACTEUR DU DIABLE (8)</a></p>
+        </div>
+        <div class="pageHidden" id="page7">
+            <p>7. S’ARRÊTER ET RÉFLÉCHIR A CE DANGER</p>
+            <p>Vous croyez bien qu’à vivre dans l’encolure de ces montagnes, à se lever chaque jour forcé à réaliser l’immensité écrasante d’un ciel et d’une terre qui s’étalent infiniment, et notre petitesse là-devant, que cette solitude ait pu teinter de mélancolie sombre la poésie des habitants.&nbsp;Vous croyez bien cela&nbsp;; mais, vous ne croyez pas aux dits insensés. Vous ne pouvez pas vous empêcher de penser qu’il y a une réelle part de danger qu’un corps, un jour, a enregistré et retranscrit dans cette expression. Un Diable en tracteur. Un Diable fermier. Cela a certainement été pensé pour être un brin amusant, et pas seulement terrible, car un Diable gargantuesque, à quelque bouffonnerie qu’il se livrerait, ne peut être décrit sans être voulu inspirer quelque crainte... Mais vous êtes l’âme prisonnière d’une charrette carcasse vous menant inévitablement à la potence. Vous avez bien quelques choix à faire, mais vous doutez qu’ils importent. Vous avez raison.</p>
+            <p><a href="#" onclick="showPages(8)">> S’ENFONCER DANS L’ORNIÈRE DU TRACTEUR DU DIABLE (8)</a></p>
+        </div>
+        <div class="pageHidden" id="page8">
+            <p>8. S’ENFONCER DANS L’ORNIÈRE DU TRACTEUR DU DIABLE</p>
+            <p>Vous avez escaladé au plus haut que le sillon montait. Devant vous s’ouvre une image du néant, du vide, du «&nbsp;rien&nbsp;» s’il en est. Le ciel grisailleux a rejoint tout parfaitement l’embêtement blanc des monts se déroulant infiniment dans le léger contrebat, et l’horizon n’est plus qu’une idée vague. De-ci de-là, une petite tâche verdâtre, ou caillouteuse, émerge de cet océan de vide&nbsp;; vous êtes devant l’œuvre d’un peintre redoutable, aussi paresseux.</p>
+            <p>Vous commencez à sentir votre corps lourd. Vous êtes au point de non-retour. Votre énergie est peut-être suffisante pour revenir au hameau, mais désormais, chaque pas de plus sera un pas à distance de votre hameau, où vous vous effondrerez si vous décidiez plus tard de rebrousser chemin.</p>
+            <p><a href="#" onclick="showPages(9)">> RETOURNER MAINTENANT AU HAMEAU&nbsp;? (9)</a></p>
+            <p><a href="#" onclick="showPages(10)">> CONTINUER AU DELÀ DU POINT DE NON-RETOUR&nbsp;? (10)</a></p>
+        </div>
+        <div class="pageHidden" id="page9">
+            <p>9. RETOURNER MAINTENANT AU HAMEAU</p>
+            <p>Quelques nuits de plus passées au hameau. Vous vous sentez toujours plus vide que le paysage que vous avez observé au point le plus élevé de l’ornière du tracteur du Diable. En vous, pas de peintre pour apposer la moindre touche de sapin, de roche ou de quoi.</p>
+            <p><a href="#" onclick="showPages(9)">> RESTER AU HAMEAU (9)</a></p>
+            <p><a href="#" onclick="showPages(4)">> QUITTER LE HAMEAU (4)</a></p>
+        </div>
+        <div class="pageHidden" id="page10">
+            <p>10. CONTINUER AU DELÀ DU POINT DE NON-RETOUR</p>
+            <p>Vous avez marché une douzaine d’heures. Vous êtes si nettement au-delà de vos limites de ressources que vous vous savez terminé. Une personne terminée. Votre vie ne vous appartient plus&nbsp;; vous le savez puissamment&nbsp;; vous le savez comme avec l’expérience on sait – avec une consistance qui ne se ressent pas dans l’apprentissage, aussi solide puisse-t-il être. Alors vous réalisez puissamment la douce force des choses. Elle n’était jamais écrasante, et c’est pourquoi vous ne la redoutiez auparavant&nbsp;: Elle n’appuyait seulement pas. Elle est un voile partout, transparent, délicat, qui est posé sur le monde, qui a adopté les formes de toutes choses, de la neige qui tombe, des sapins, de votre corps, vous êtes guidé par des courants d’air très doux qui émanent de sous la terre, qui s’infiltrent sous ce drap et soufflent un volume qui appuie si délicatement contre votre dos que vous ne saviez réaliser qu’il vous conduisait. Sauf si le monde a prévu de souffler autre chose en votre direction, il semble qu’il vous conduise désormais à un abîme. Cet abîme, vous ne le craignez pas. Vous vous y laissez porter sans résister, comme vous l’avez toujours fait. Au hameau, puisque vous n’y aviez pas de perspective étonnante, le futur s’occultait de lui-même sitôt qu’il s’évoquait, comme une évidence négligeable&nbsp;; mais, toujours, vous vous êtes vu au bord d’un abîme.</p>
+            <p>Vous avez marché encore longtemps. Vous vous souvenez avoir traversé ce qu’en vous-même vous aviez qualifié de «&nbsp;forêt&nbsp;de sapin&nbsp;», mais ce n’était rien de moins qu’un amas de quelques arbres sur une plaine entre deux montagnes. Vous vous souvenez d’une grande étendue plane et enneigée qui s’est déployée devant vous dès lors que les sapins se sont écartés de votre vue. Vous vous souvenez avoir pensé que c’était là, au beau milieu de cette plaine que vous alliez mourir&nbsp;; vous vous souvenez de la neige qui s’est mise à tomber alors que toutes les sensations de votre corps disparaissaient, vous vous souvenez vous être dit que ce paysage que vous voyiez était enfin l’ultime, fusionné avec lui vous vous souvenez... Vous vous souvenez… Vous… vous… souvenez... Ah... Oui… Vous le remarquez, n’est-ce pas&nbsp;?… Vous pouvez vous souvenir...</p>
+            <p>Vous êtes vivant...</p>
+            <p><a href="#" onclick="showPages(11)">> REPRENDRE CONSCIENCE (11)</a></p>
+        </div>
+        <div class="pageHidden" id="page11">
+            <p>11. REPRENDRE CONSCIENCE</p>
+            <p>Vous prenez lentement conscience de l’endroit dans lequel vous vous trouvez. Vous observez à quelques centimètres de votre visage ce qui semble être une paroi faite de planches de bois assemblées horizontalement. Vous la touchez, comme pour en être bien certain. Vous sentez sous vos doigts les rainures, les imperfections du bois, sa touche rugueuse et que vous devinez avoir été tant agressée par les éléments.</p>
+            <p>Allongé sur le côté, vous entendez, dans votre dos, quelqu’un s’affairer&nbsp;; des froissements de tissu, de l’eau qu’on fait bouillir... Vous n’avez pas immédiatement la force de vous retourner, alors vous écoutez. Ces sons sont reposants. Vous n’êtes certainement pas chez vous – vous reconnaîtriez les murs de chaumes –, mais confortablement lové sous un tas de fourrures. Vous avez le sentiment d’être au calme, en sécurité&nbsp;; vous êtes fatigué comme on ne peut l’être qu’à s’être épuisé sans intention d’avoir à jamais récupérer&nbsp;; en paix, d’être mort une fois enfin, vous vous endormez profondément.</p>
+            <p>À votre réveil, les couleurs sont nettement moins différenciables, dans ce lieu, il y fait maintenant sombre, et seul un tiquement irrégulier emplit les lieux d’une présence. Tic, tic, tic... tic, tic... tic... tic, tic, tic, tic... tic... tic, tic... Vous vous retournez, et par ce mouvement vous réalisez que votre corps emmitouflé, que vous sentiez cotonneux, est tout endolori.</p>
+            <p>Vous êtes dans une cabane étroite. Le lit dans lequel vous vous trouvez occupe la moitié de l’espace de la cabane. Pour le reste, au milieu de l’espace restant et pratiquement accolé à la porte, il y a un poêle à bois&nbsp;; il y a un guéridon bien abîmé dans un coin, sur lequel se trouvent plusieurs accessoires usagés, cabossés, de vaisselle&nbsp;; sur une chaise au bord de s’effondrer, au bois gonflé par l’humidité, une vieille femme tricote&nbsp;: Tic, tic… tic, tic, tic… tic...</p>
+            <p>«&nbsp;Bonjour, tiens&nbsp;! Tu te réveilles enfin, dit-elle d’une voix tremblotante. Cela fait deux jours que nous veillons sur toi.&nbsp;»</p>
+            <p>Lentement, elle approche de votre visage une main squelettique. Sa peau est ridée comme du parchemin, sèche et froide comme la pierre au contact avec votre front.</p>
+            <p>«&nbsp;Tu devrais manger quelque chose de consistant. Le sucre et la neige ne sont pas très nourrissants.&nbsp;»</p>
+            <p>La vieille femme se tourna et, d’entre sa chaise et le mur, parvint à atteindre une petite caisse d’où elle tira un morceau de viande séchée. Elle vous le tend.</p>
+            <p>«&nbsp;Le froid en a tué le goût, mais cela est nourrissant.&nbsp;»</p>
+            <p>Vous le prenez. Effectivement, vous en aviez besoin. Vous vous restaurez et puis, vos besoins vitaux comblés, votre instinct de survie se fait moins occupant, moins impérieux, vous avez maintenant une certaine latitude pour vous questionner sur d’autres choses que la manière de combler les manques vitaux du corps&nbsp;; vous vous préoccupez de ceux de l’esprit, ceux qui vous ont conduits ici.</p>
+            <p><a href="#" onclick="showPages(12)">> DEMANDER&nbsp;: «&nbsp;QUI ÊTES-VOUS&nbsp;?&nbsp;» (12)</a></p>
+            <p><a href="#" onclick="showPages(14)">> DEMANDER&nbsp;: «&nbsp;OÙ SOMMES-NOUS&nbsp;?&nbsp;» (14)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page12">
+            <p>12. «&nbsp;QUI ÊTES-VOUS&nbsp;?&nbsp;»</p>
+            <p>La vielle femme vous fixe fermement. Sévèrement.</p>
+            <p>«&nbsp;Je suis...&nbsp;»</p>
+            <p>Elle s’interrompit un long instant, et agit comme si elle cherchait quelque chose du regard. Elle furetait, fixait un point, plissait le regard comme si ce qu’elle allait dire se trouvait écrit en tout petit dans le vide devant elle&nbsp;; cherchait un autre point, recommençait... Votre question l’avait perturbée d’une étrange manière, pour une étrange raison. Vous l’auriez certainement interrompue, par politesse, si vous aviez eu plus d’énergie pour parler. Mais en partie également, vous gardez le silence, car il vous était intriguant de savoir comment allait aboutir une réaction aussi curieuse.</p>
+            <p>Tout de même, après une longue minute à observer ses mouvements mal ordonnés, vous vous apprêtiez à dire quelque chose, n’importe quoi, pourvu que cela puisse la débloquer, quand un changement tout singulier vous ôta toutes idées d’agir.</p>
+            <p>La vieille femme s’immobilisa subitement, entièrement. Ses mains qui tremblaient, cliquetant ses aiguilles à tricoter l’une contre l’autre, se figèrent, silencieuse, et à présent vous réalisez qu’il n’y eut pas un instant de silence&nbsp;; vous êtes persuadé que jusque dans votre fort inconscient, il n’a pas été enregistré de silence durant votre sommeil, ni durant votre transport dans cette cabane&nbsp;: C’étaient le vent sifflant, le frottement de votre corps traîné contre la neige, le crépitement dans le poêle d’un feu qui maintenant s’éteignait, le cliquetis d’aiguilles et, tout cela, tout cela n’était plus. Pour la première fois, la vieille dame ne cognait plus ses aiguilles, alors même que peut-être la maladie ou le froid l’obligeaient, y compris même lorsqu’elle ne cherchait pas à passer une maille. Vous l’auriez dite morte, et vous l’auriez maintenu après même l’avoir vu bouger comme il suivit.</p>
+            <p>C’était une robe vide, maintenue sur la chaise par une armature cachée sous une épaisse fourrure, qui imitait la forme d’un corps assis. C’était une tête de poupée enfilée par le col de la robe, soudée au froid derrière une épaisse écharpe, soudée en position droite. Et voilà qu’il lui fallait tourner dans votre direction. Voilà qu’elle peinait&nbsp;! La glace, qui opposait une résistance, que vous croyez entendre craquer, l’obligeait à pivoter son cou de manière saccadée, dans un mouvement laborieux qui finissait de déshumaniser ce qui vous regardait à présent&nbsp;: Un visage de pierre à l’expression sévère.</p>
+            <p>«&nbsp;Qui je suis&nbsp;? dit-elle enfin d’une voix tremblante. Rien d’autre que ce que tu vois.&nbsp;Rien de plus.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(13)">> DIRE&nbsp;: «&nbsp;JE NE COMPRENDS PAS&nbsp;» (13)</a></p>
+            <p><a href="#" onclick="showPages(14)">> DEMANDER&nbsp;: «&nbsp;OÙ SOMMES-NOUS&nbsp;?&nbsp;» (14)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page13">
+            <p>13. «&nbsp;JE NE COMPRENDS PAS&nbsp;»</p>
+            <p>«&nbsp;Cela n’a pas d’importance&nbsp;», répond aussitôt la vieille femme.</p>
+            <p><a href="#" onclick="showPages(14)">> DEMANDER&nbsp;: «&nbsp;OÙ SOMMES-NOUS&nbsp;?&nbsp;» (14)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page14">
+            <p>14. «&nbsp;OU SOMMES-NOUS&nbsp;?&nbsp;»</p>
+            <p>La vieille femme fixa un instant droit devant elle.</p>
+            <p>«&nbsp;Je ne sais pas. Nous sommes loin des hommes, je peux le dire&nbsp;; ça, oui. Tu es la première autre personne que nous rencontrons.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(12)">> DEMANDER&nbsp;: «&nbsp;QUI ÊTES-VOUS&nbsp;?&nbsp;» (12)</a></p>
+            <p><a href="#" onclick="showPages(15)">> DEMANDER&nbsp;: «&nbsp;NOUS&nbsp;»&nbsp;? (15)</a></p>
+            <p><a href="#" onclick="showPages(16)">> DEMANDER&nbsp;: «&nbsp;VOUS DEVEZ BIEN VENIR DE QUELQUE PART&nbsp;; VOUS AVEZ DÛ CONNAÎTRE D’AUTRES PERSONNES, FUT UN TEMPS, NON&nbsp;?&nbsp;» (16)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page15">
+            <p>15. «&nbsp;NOUS&nbsp;?&nbsp;»</p>
+            <p>«&nbsp;Je ne vis pas toute seule, dit la vieille femme d’une voix tremblotante à peine audible. Iphie est partie chercher de quoi manger.&nbsp;Et puis il y a toi, maintenant, que tu le veuilles ou non.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(17)">> DIRE&nbsp;: «&nbsp;SI JE PARS, JE NE SUIS PLUS DES VÔTRES...&nbsp;» (17)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page16">
+            <p>16. «&nbsp;VOUS DEVEZ BIEN VENIR DE QUELQUE PART&nbsp;; VOUS AVEZ DÛ CONNAÎTRE D’AUTRES PERSONNES, FUT UN TEMPS, NON&nbsp;?&nbsp;»</p>
+            <p>«&nbsp;Tu parles d’une naissance&nbsp;? Est-ce qu’on peut être une femme sans être une fille&nbsp;? La mémoire, jeune homme, disparait. Quand elle n’est plus là, quand il n’y a plus de témoin sur terre, comme ici, rien ne sait plus prouver que j’ai été la fille de quelqu’un. Si je l’ai été, c’est une fiction, une réinvention, car je n’ai aucune mémoire d’une mère. Il se peut qu’elle doive avoir une fonction, cette mémoire d’une mère, mais ça ne m’importe pas. En l’état actuel, je n’ai jamais rencontré que deux personnes dans ma vie.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(15)">> DEMANDER&nbsp;: «&nbsp;NOUS&nbsp;?&nbsp;» (15)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page17">
+            <p>17. «&nbsp;SI JE PARS, JE NE SUIS PLUS DES VÔTRES...&nbsp;»</p>
+            <p>«&nbsp;Crois-tu&nbsp;? Si réellement, alors tu fais erreur sur l’endroit où tu te trouves. Cette cabane est l’épicentre à partir duquel le monde est projeté en ondes. Son rayon est égal à la plus grande distance que tu peux atteindre d’ici sans mourir. Il n’existe rien au-delà que le royaume des morts. Dis-toi désormais que la terre est plate, que nous sommes au centre, et qu’elle ne fait que quelques kilomètres de diamètre.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(18)">> DIRE&nbsp;: «&nbsp;JE SUIS VENU D’UN HAMEAU. D’AUTRES POURRAIENT VENIR ET VOUS PROUVERAIENT QUE LE MONDE EN DEHORS DE CE LIEU EXISTE&nbsp;» (18)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page18">
+            <p>18. «&nbsp;JE SUIS VENU D’UN HAMEAU. D’AUTRES POURRAIENT VENIR ET VOUS PROUVERAIENT QUE LE MONDE EN DEHORS DE CE LIEU EXISTE&nbsp;» (aller vers 16.)</p>
+            <p>«&nbsp;Hé, hé, hé, hé, hé, hé&nbsp;!... Tu n’as aucune idée de l’endroit où tu es, ni de l’endroit où l’on t’a trouvé, n’est-ce pas&nbsp;? Ton hameau n’existe plus.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(13)">> DIRE&nbsp;: «&nbsp;JE NE COMPRENDS PAS&nbsp;» (13)</a></p>
+            <p><a href="#" onclick="showPages(19)">> SE LEVER ET S’APPRÊTER À PARTIR (19)</a></p>
+        </div>
+        <div class="pageHidden" id="page19">
+            <p>19. SE LEVER ET S’APPRÊTER À PARTIR</p>
+            <p>Vous renoncez à poser des questions. Vous êtes maintenant reposé. Vous décidez que vous avez fait votre temps ici et que, quoi que vous cherchiez, ce n’est dans cette cabane que cela se trouve, et non plus cette vieille femme le possède.</p>
+            <p>Votre corps est encore légèrement endolori, mais vous parvenez à vous lever et à sortir du lit. La vieille femme vous regarde silencieusement enfiler vos vêtements.</p>
+            <p>Vous forcez pour ouvrir la porte, une épaisseur de neige opposait, de l’autre côté, une résistance. Le regard perdu dans le vague extérieur, venant de derrière vous, vous entendez la voix de la vieille femme.</p>
+            <p>«&nbsp;Il n’existe rien, au-delà. Quelle que soit la direction que tu prendras, il n’y aura rien d’autre que toi, dit-elle posément.</p>
+            <p>Tu te retrouveras à nouveau ici. Si tu parviens à marcher en ligne droite, tu mourras. D’où tu viens, ici, cela n’existe plus...</p>
+            <p>Reste avec nous, et tu pourrais bien trouver ce que tu cherches. Pars, et tu n’auras plus que cinq à dix heures pour le faire, si jamais tu n’es pas ramené ici.&nbsp;»</p>
+            <p><a href="#" onclick="showPages(20)">> PARTIR (20)</a></p>
+        </div>
+        <div class="pageHidden" id="page20">
+            <p>20. PARTIR</p>
+            <p>Vous remerciez la vieille femme de vous avoir donné du temps supplémentaire pour accomplir votre quête et, sans lui laisser le temps de répondre, vous vous éloignez.</p>
+            <p>Vous évaluez approximativement, par rapport au soleil que, vous dirigeant vers ce qui dépasse au nord-ouest comme étant peut-être une petite forêt, sinon un rassemblement d’arbres, vous vous trouveriez dans la continuité de la route que vous avez déjà prise et qui s’éloignait de votre hameau. Vous avancez.</p>
+            <p>Vous avancez péniblement dans la neige épaisse&nbsp;mais, un pas après l’autre, vous réalisez que vous avez marché une grande distance. Vous retournant vers la cabane, vous voyez devant vous s’étendre une plaine enneigée à la forme circulaire suggérée essentiellement par diverses petites forêts et quelques amas rocheux. Au centre, la cabane, comme un petit point noir dans la vision. Le vide du paysage empêchait d’en réaliser l’étendue et les distances, et vous doutez alors que cette forêt vers laquelle vous vous dirigiez, que vous pensiez n’être encore qu’à quelques kilomètres seulement, soit réellement atteignable.</p>
+            <p>L’endroit où vous vous endormiriez dans cette plaine serait l’endroit où votre voyage se terminerait. Le froid est mordant, et les abris sont inexistants. Vous pensiez pouvoir prendre refuge dans la forêt, éventuellement trouver quelques provisions pour aller plus loin. Il vous faut faire un choix.</p>
+            <p><a href="#" onclick="showPages(21)">> CONTINUER VERS LA FORÊT (21)</a></p>
+            <p><a href="#" onclick="showPages(23)">> RETOURNER À LA CABANE (23)</a></p>
+        </div>
+        <div class="pageHidden" id="page21">
+            <p>21. CONTINUER VERS LA FORÊT</p>
+            <p>Vous vous dites que votre méthode sera la suivante&nbsp;: face à votre problème, vous persévérerez dans la direction que vous aviez initialement prise. Vous pensez de cette manière obtenir un résultat, quel qu’il soit, que des allés en avant et en arrière ne sauraient vous permettre d’en obtenir&nbsp;: cela est ce que vous faisiez avant, et qui vous a fait rester dans votre hameau si longtemps.</p>
+            <p><a href="#" onclick="showPages(23)">> RETOURNER À LA CABANE (23)</a></p>
+            <p><a href="#" onclick="showPages(22)">> TENTER DE SURVIVRE ET PERSÉVÉRER (22)</a></p>
+        </div>
+        <div class="pageHidden" id="page22">
+            <p>22. TENTER DE SURVIVRE ET PERSÉVÉRER</p>
+            <p>Vous pensez qu’il est trop tôt pour abandonner. Vous ne croyez pas à ce que la vieille femme a dit&nbsp;: qu’«&nbsp;il n’existe rien au-delà.&nbsp;» Elle mentait, ou elle parlait en ignorante. Votre objectif, lui du moins, y existe, quel qu’il soit… Mais est-il plus qu’un mirage projeté par votre tête&nbsp;? Les mots de la vieille femme, pouvaient-ils porter un sens littéral&nbsp;?… Et sinon, vous êtes-vous perdus à un endroit d’où l’on ne peut revenir, où des forces naturelles, telles la gravité vous tirant dans un immense creux,, vous emprisonnent&nbsp;?… Ces pensées vous inquiètent&nbsp;: Auriez-vous quitté votre hameau restreint pour un lieu plus restreint encore, plus petit, peut-être, plus oppressant encore…&nbsp;?</p>
+            <p>S’il faut mourir à celui qui cherche à voir par-delà l’épaisse brume blanche, à celui qui cherche à découvrir ce qu’il y a plus loin, alors vous mourrez, vous dites-vous, mais cela ne sera pas un suicide, car de toutes vos forces, vous tenterez de survivre, et la mort certaine qui vous attend au loin&nbsp;: plutôt un acte de rébellion, oui... l’un dont la punition est la mort, mais l’un qui, s’il en est qui régirent tout cela, et cette prison, et qui sauraient vous voir, sera digne d’être retenu, et de montrer qu’il en est que l’on ne peut contraindre… N’est-ce pas&nbsp;?…</p>
+            <p>Vous êtes épuisé. La brume s’est épaissie. Vous ne voyez plus la forêt. Vous ne voyez plus les montagnes au loin, non plus la cabane derrière vous… Il n’y a plus qu’un seul arbre, non loin. Vous croyez qu’il s’agit d’un pin sylvestre. Vous allez perdre connaissance, bientôt, mais vous vous souvenez qu’on vous a déjà retrouvé, dans la neige.</p>
+            <p>Vous tombez à genoux et sentez comme elle est épaisse, cette neige. Si vous vous allongez, vous serez dissimulé à jamais sous une épaisse couche blanche.</p>
+            <p>Vous rampez…</p>
+            <p>Vous rampez jusqu’à l’arbre…</p>
+            <p>Vous sentez l’écorce rugueuse râper votre épais manteau, alors que vous calez votre corps dans une enfourchure basse du tronc…</p>
+            <p>Vous sentez le vent...</p>
+            <p>Vous sentez la neige, à travers vos vêtements, s’agglutinant le long d’un de vos bras ballant en direction du sol…</p>
+            <p>Vous entendez un grincement…</p>
+            <p>Votre tête sursaute légèrement… Vous ne la sentez pas retomber...</p>
+            <p>Et puis plus rien…</p>
+            <p>...</p>
+            <p>Et puis dans le noir, le crépitement d’un feu...</p>
+            <p><a href="#" onclick="showPages(11)">> REPRENDRE CONSCIENCE (11)</a></p>
+        </div>
+        <div class="pageHidden" id="page23">
+            <p>23. RETOURNER À LA CABANE</p>
+            <p>Devant vous, le froid blanc s’épaissit. Vous le savez&nbsp;: Au-delà, il n’y a rien que la mort, l’endormissement et la mort, l’inconscience et la mort.</p>
+            <p>Péniblement, vous rebroussez chemin et parvenez à retourner à la cabane. Vous la voyez, devant vous. Vous êtes exténué, et réalisez les limites de votre corps. Vous souhaitiez voir quelque chose, et peut-être qu’aucun ne le désirait plus que vous au monde, mais vous sentez, là, sur le seuil de la cabane et sur le point de flancher, plus fortement que jamais, comme votre corps est un véhicule fragile, et qu’il ne pourra conduire votre esprit en tous lieux et aussi loin qu’il vous fait le désirer.</p>
+            <p>Vous êtes désespéré.</p>
+            <p>Vous frappez à la porte.</p>
+            <p>«&nbsp;Entre&nbsp;», dit une voix abîmée.</p>
+            <p>Vous ôtez vos gants et approchez vos mains du poêle. Cela est bon.</p>
+            <p>«&nbsp;Veux-tu attendre&nbsp;?&nbsp;» vous demande la vieille femme sans vous regarder, toujours tricotant. Elle ajoute, sans vous laisser le temps de répondre&nbsp;: «&nbsp;Iphie est partie avec le traîneau chercher à manger...&nbsp;»</p>
+            <p>La vieille femme tend le bras, saisit une bouilloire et sert une boisson chaude dans une tasse. Elle vous la tend.</p>
+            <p>Vous la prenez et en buvez le contenu. C’est une infusion, au goût légèrement sucré.</p>
+            <p><a href="#" onclick="showPages(24)">> ATTENDRE IPHIE (24)</a></p>
+            <p><a href="#" onclick="showPages(20)">> PARTIR (20)</a></p>
+        </div>
+        <div class="pageHidden" id="page24">
+            <p>24. ATTENDRE IPHIE</p>
+            <p>Vous décidez d’attendre Iphie. Elle vous rend curieux. Et puis, vous êtes épuisés. Vous ne seriez pas allé bien loin dans le froid blanc… Vous demandez la permission à la vieille femme de vous allonger sur le lit. Elle tend le bras, dans un geste d’invitation. Vous ne vous faites pas prier&nbsp;; vous enlevez vos chaussures et vous glissez sous la couverture.</p>
+            <p>Vous savez qu’il ne vous fallut attendre le sommeil longtemps, et pour un peu, vous auriez pu percevoir l’imperceptible moment qui le précède, si proche qu’il était de celui où vous avez fermé les yeux…</p>
+            <p>…</p>
+            <p>Comme une minute ou un jour passe. Dans le noir, vous entendez un ronflement. Vous vous retournez, et à la lueur vacillante de la braise encore dans le poêle, vous voyez la vieille femme, toujours assise sur sa chaise. Elle dort, peut-être. «&nbsp;Peut-être&nbsp;», car ses yeux demeurent grands ouverts.</p>
+            <p>À la voir, émerge en vous un sentiment déplaisant, mais juste assez peu pour vous laisser y goûter, comme curieux de découvrir une nouvelle saveur, et alors vous l’observez un instant. Comme elle vous semble étrange... immobile et fixant on ne sait quel lieu d’un rêve invisible s’ouvrant comme une scène devant son regard&nbsp;; elle vous semble inquiétante, mais non immédiatement menaçante. Ah, dirait-on qu’elle pourrait l’être, cette vieille femme décharnée&nbsp;?… Vous le croiriez. Elle vous paraît si peu naturelle&nbsp;: Sa respiration est si basse, si lente qu’à peine perceptiblement son torse se soulève au gré d’inspirations et d’expirations.</p>
+            <p>Vos pensées sont interrompues. La vieille dame s’éveille&nbsp;; s’éveille – vous le voyez à la lueur vivace de son regard se réignitant. Elle a perçu quelque chose, un bruit, ou quoi d’autre, quoi que ce soit dont vous n’avez pas eu conscience, non de vous, car, un court instant suivant, la porte de la cabane s’entrouvre.</p>
+            <p>La vieille femme vous ignore et fixe la porte. Une longue chevelure blonde et glacée dépasse de l’entrebaillement. Elle se tourne. Entre deux tombées blondes, givrées, vous voyez un visage, et des yeux comme deux billes pâles – rendues plus pâles encore au contraste d’un halo noir intense, tracé, au charbon tout autour de chacune –, et qui vous observent.</p>
+            <p>Elle sourit de ses lèvres bleuies.</p>
+            <p>Elle entre, et ne s’adressant comme à personne alors qu’elle retire son lourd manteau dit&nbsp;: «&nbsp;Il s’est éveillé.&nbsp;» Et se mouvant comme si le froid ne la concernait pas, tira un petit paravent derrière lequel elle alla se changer. Quand même, pudique et respectueux, vous vous tournez, allongé face au mur. Vous n’entendez alors que des bruissements de tissu, et la vieille femme qui, en silence, reprit son tricot.</p>
+            <p>Tic, tic… tic, tic, tic… tic… tic, tic, tic… tic…</p>
+            <p>Quelque chose en bois racla le sol. Vous pensez qu’il s’agissait du paravent qui venait d’être rangé. Et puis une jambe longue et blanche passe par-dessus vous. Et Iphie, qui maintenant portait une robe de soie légère, posa ses pieds à côté de votre visage avant de les enfiler sous la couverture, et de s’y glisser auprès de vous.</p>
+            <p>«&nbsp;Il fait froid&nbsp;» dit-elle en souriant, son visage près du vôtre.</p>
+            <p>Elle ne semble pas avoir froid.</p>
+            <p><a href="#" onclick="showPages(25)">> TOUCHER LE VISAGE D’IPHIE (25)</a></p>
+            <p><a href="#" onclick="showPages(26)">> NE PAS TOUCHER IPHIE (26)</a></p>
+        </div>
+        <div class="pageHidden" id="page25">
+            <p>25. TOUCHER LE VISAGE D’IPHIE</p>
+            <p>Vous n’avez pas su résister, et lentement et prudemment vous faufilez l’une de vos mains hors de l’épaisse couverture. Vous l’approchez de son visage, sans plus réfléchir, doucement. Iphie ne se dérobe pas. Elle sourit, son visage tout près du vôtre, et alors…</p>
+            <p>Et alors votre paume touche sa joue. Vous sentez le froid qui émane d’elle, et la douceur si peu naturelle de la peau d’une femme qui survit dans un froid pareil…</p>
+            <p>Elle est si proche de vous, et vous voyez comme sa peau est pâle, blanche, plus blanche encore derrière votre main, votre chair, avec quoi elle contraste plus fortement encore.</p>
+            <p>Elle sourit toujours. Et Iphie faufila ses longs et fins doigts diaphanes entre son visage et votre main. Du bout de ses ongles, elle vous la repousse, et vous prive de son contacte. Ses yeux s’étirent. Joue-t-elle&nbsp;?…</p>
+            <p>Comme elle vous est étrange... Vous devriez partir – rien de cela ne vous paraît naturel. Si elle n’est un succube, elle vous est imaginaire&nbsp;; en tout cas votre esprit est dupé, et le ferait-on pour votre bien&nbsp;?… Oui, peut-être… Pourquoi ne vous voudrait-on que du mal&nbsp;?…</p>
+            <p>Iphie révèle une rangée de dents blanches sous sa lèvre supérieure, elle aussi, à peine moins blanche que sa peau, et s’arquant lentement&nbsp;; elle s’apprête à vous dire quelque chose...</p>
+            <p><a href="#" onclick="showPages(27)">> ÉCOUTER IPHIE (27)</a></p>
+            <p><a href="#" onclick="showPages(29)">> QUITTER IPHIE ET LA CABANE (29)</a></p>
+        </div>
+        <div class="pageHidden" id="page26">
+            <p>26. NE PAS TOUCHER IPHIE</p>
+            <p>Vous résistez à la toucher. Vous ne devez pas, vous vous dites. Elle semble ne pas craindre le froid, et la curiosité vous a commandé de lui toucher le visage… Mais Iphie est belle, et d’où qu’elle vienne, vous vous dites qu’on a toujours voulu lui toucher le visage, la caresser…</p>
+            <p>«&nbsp;Cette fois, elle sera épargnée&nbsp;» vous vous dites…</p>
+            <p>Vous êtes une bonne personne, non&nbsp;?… À moins que vous n’ayez fait cela pour vous, pour sculpter votre image pour votre plaisir, ou alors, peut-être qu’ainsi voyant comme vous êtes une bonne personne, elle vous laissera la toucher, et plus souvent et plus longtemps que si vous ne l’aviez fait sans qu’elle y consente…</p>
+            <p>Peut-on aimer une beauté, aimer l’une, être auprès d’elle et la désirer, et n’être ni un obligeur ni un manipulateur…&nbsp;?</p>
+            <p>Ah, pouvez-vous être avec les autres sans mal faire&nbsp;?… Pouvez-vous être auprès d’une belle, comme auprès de quiconque, et que votre plaisir en leur compagnie n’importe, et les aimer sans rien attendre d’eux&nbsp;?</p>
+            <p>Vous pensez à partir, car vous vous dites que vous ferez mal.</p>
+            <p>Les gens comme vous doivent être seuls.</p>
+            <p>Et Iphie, alors, doit-elle l’être&nbsp;?… Ah, vous êtes submergé quand…</p>
+            <p>… quand Iphie vous prit la main&nbsp;; elle vous la tira délicatement de sous la couverture. Et les deux siennes, petites autour de la vôtre, vous la pose contre sa joue pâle. Vous sentez une chaleur. C’est vous qui refroidissez Iphie.</p>
+            <p>Ses lèvres blanches s’animent lentement. Elle s’apprête à parler. Mais vous… vous êtes toujours submergé, et songez que peut-être vous ne pourriez pas être un bien pour elle...</p>
+            <p><a href="#" onclick="showPages(27)">> ÉCOUTER IPHIE (27)</a></p>
+            <p><a href="#" onclick="showPages(29)">> QUITTER IPHIE ET LA CABANE (29)</a></p>
+        </div>
+        <div class="pageHidden" id="page27">
+            <p>27. ÉCOUTER IPHIE</p>
+            <p>Iphie vous parle, et sa voix est douce, basse comme un chuchotement. Ses lèvres pâles se meuvent avec grâce, et ses dents s’écartent à peine quand elle parle. Elfique, elle dit&nbsp;:</p>
+            <p>«&nbsp;Reste ici, avec nous. Je serais gentille. Et grand-mère ne nous dérangera pas. Regarde.&nbsp;»</p>
+            <p>Dans votre dos, la flamme dans la poêle vacilla, faiblit, et un instant il fit noir. Aussitôt elle se raviva. Vous vous retournez, et la vieille dame n’était plus.</p>
+            <p>«&nbsp;Quand...&nbsp;» demandez-vous hésitant, cherchant dans la minuscule pièce une trace de sa présence…</p>
+            <p>«&nbsp;Grand-mère est très discrète&nbsp;» répondit Iphie dans votre dos, d’un ton sérieux.</p>
+            <p>Vous vous retournez vers la jeune femme, et votre visage se trouve alors tout près du sien, plus près encore qu’avant. Vous ne savez dire si elle s’approcha, ou bien si vous le firent, aimanté par la mystérieuse beauté. Vous voyez ses yeux clairs, surtout blancs, et comme un vertige vous prit alors que votre regard plongea dedans, dans ceux-là qu’une paroi noire cernait, et rendait plus profonds, si profonds…</p>
+            <p>«&nbsp;Tu es très belle&nbsp;», lui dites-vous, entendant votre voix comme si elle n’était la vôtre, comme si, cette pensée, introduite par un autre dans votre cerveau, fut aussi jetée par lui-même hors de vous… Et quand même, c’était vrai. Iphie est belle.</p>
+            <p>«&nbsp;Reste… Et tu pourras me regarder tant que tu veux… et tu pourras me toucher...&nbsp;»</p>
+            <p>Oui. Ainsi, vous pourriez faire tout cela. Et les plaisirs de sa vue et les plaisirs de sa peau vous seraient alors accessibles comme à une source intarissable à laquelle vous sauriez vous abreuver sans fin...</p>
+            <p><a href="#" onclick="showPages(28)">> RESTER AVEC IPHIE (28)</a></p>
+            <p><a href="#" onclick="showPages(29)">> QUITTER IPHIE ET LA CABANE (29)</a></p>
+        </div>
+        <div class="pageHidden" id="page28">
+            <p>28. RESTER AVEC IPHIE</p>
+            <p>Vous restez avec Iphie.</p>
+            <p>Les jours passent. Toujours les mêmes. Et vous voyez Iphie suivre une routine qui vous fascine, et, toujours belle, toujours gracieuse en l’exécutant, elle s’y tient, et rarement varie.</p>
+            <p>Au matin, elle se maquille le tour des yeux, les cerclant à l’aide d’une préparation à base de charbon qu’elle récupère régulièrement de bois brûlés.</p>
+            <p>Durant la journée, vous l’accompagnez dans l’étendue blanche qui entoure la cabane, à la recherche de nourriture. Iphie tire à l’arc, et vous apprend à le faire. Peu fréquemment, elle et vous rentrez avec un lièvre, ou mieux&nbsp;; ou avec des fruits sauvages, mais enfin&nbsp;: Vous mangez à votre faim…</p>
+            <p>Le soir, Iphie se démaquille, et ses yeux pâles, pour peu, se confondraient avec sa peau blanche. Elle est belle, et, comme promis, vous pouvez le regarder. Vous pouvez la caresser, aimer la douceur de sa peau, aimer sa vue.</p>
+            <p>La vieille femme, quant à elle, n’est pas toujours là. Vous ne savez jamais où elle disparaît, et Iphie se montre laconique à ce sujet. Vous ne voyez jamais la vieille femme se lever, s’en aller. Simplement&nbsp;: Elle est sur sa chaise ou elle n’y est pas. Vous pourriez bien trouver quelque intérêt à résoudre ce mystère, mais vous ne pouvez pas ne pas réaliser que le résoudre ne dépend pas de vous. Si vraiment elle était une entité surnaturelle, elle serait plus que vous l’êtes, et alors, seule, déciderait si ce mystère devait être résolu. Et sinon, un jour, vous la verrez se lever, et tout mystère d’intérêt s’évaporera. Et, ainsi, il ne vous restera plus que les charmes d’Iphie à aimer.</p>
+            <p><a href="#" onclick="showPages(28)">> RESTER AVEC IPHIE (28)</a></p>
+            <p><a href="#" onclick="showPages(29)">> QUITTER IPHIE ET LA CABANE (29)</a></p>
+        </div>
+        <div class="pageHidden" id="page29">
+            <p>29. QUITTER IPHIE ET LA CABANE</p>
+            <p>Il faut donc s’ennuyer ou souffrir. Aussi belle et gentille que vous soit Iphie, vous ne parvenez à vous attarder. Une pensée s’impose à vous&nbsp;: l’irréelle présence de cette femme ne peut être qu’un leurre dangereux, et sinon il est la fin ennuyeuse d’un voyage. Ce qui vous est beau et bon vous trompe peut-être, n’est-ce pas&nbsp;? Car tel serait ce qui voudrait pouvoir vous duper. Le laid et le mal, au contraire, vous apparaît honnête, vrai, vrai en cela qu’il ne dissimule pas ce qu’il devrait et qui est repoussant. Vous cherchez à voir le bout du chemin, la vérité surprenante, et les doux rêves, et qui vont pour durer, ne sont pas pour vous. À ceux-là, vous choisissez la souffrance.</p>
+            <p>Devant la porte de la cabane, Iphie vous regarde, et sourit tristement, car elle sait ce qui vous anime. Elle ne peut vous retenir, ou pour longtemps, ni en vous enserrant dans ses bras, ni en pleurant, ni en suppliant… Vous partirez, et vous mourrez inévitablement.</p>
+            <p>Elle vous touche le visage de sa main blanche, et froide à présent, et sitôt vous êtes marchant, épuisé, dans l’étendue blanche. La cabane a disparu derrière un relief. Vous ne vous êtes pas dirigé vers la forêt. Vous vous êtes dirigé vers le néant, espérant peut-être voir quelque chose de nouveau, d’étrange, qui sait, d’au-delà de ce qui vous est concevable, pensable… Mais au loin, vous ne voyez rien…</p>
+            <p>Vous êtes à bout de force, et vous avez un choix à faire&nbsp;: temporiser votre existence, ou mourir.</p>
+            <p><a href="#" onclick="showPages(30)">> RETOURNER AVEC IPHIE (30)</a></p>
+            <p><a href="#" onclick="showPages(31)">> MOURIR (31)</a></p>
+        </div>
+        <div class="pageHidden" id="page30">
+            <p>30. RETOURNER AVEC IPHIE</p>
+            <p>Vous rebroussez chemin. Vous avez utilisé la forêt au loin pour vous diriger, et le soleil pâle qui perce à grand-peine à travers la brume. Vous montez une pente et, alors, au loin, vous la voyez, la cabane, un petit point au milieu d’un plateau blanc.</p>
+            <p>Vous n’avez plus les forces de l’atteindre, et quelque pas plus loin vous perdez connaissance.</p>
+            <p>Une fois encore, vous vous éveillez dans la cabane. Iphie a pu vous voir, et a pu vous retrouver. Dans son lit, elle vous réchauffe et vous sourit. Vous vous endormez, et après un long sommeil vous vous éveillez en forme.</p>
+            <p>Iphie vous demande de rester avec elle… Elle insiste. Elle vous dit que vous allez vous évanouir, dans le froid, et mourir. Et si cela arrive trop loin de la cabane, elle ne saura peut-être pas vous retrouver. Sa lèvre inférieure se met à trembler. Ses grands yeux se mouillent et vous fixent, bien ouverts, résistants à cligner comme pour ne manquer aucun détail de votre réponse.</p>
+            <p><a href="#" onclick="showPages(28)">> RESTER AVEC IPHIE (28)</a></p>
+            <p><a href="#" onclick="showPages(29)">> QUITTER IPHIE ET LA CABANE (29)</a></p>
+        </div>
+        <div class="pageHidden" id="page31">
+            <p>31. MOURIR (FIN)</p>
+            <p>Une histoire doit avoir une fin. Ce que vous offrait Iphie n’allait pas être éternel&nbsp;; le nouveau et l’étrange allaient devenir imperceptiblement le banal et l’ordinaire. Iphie n’allait pas toujours être là pour vous, éternellement belle et douce, ni infailliblement capable de vous retrouver. Vous le saviez.</p>
+            <p>Comme pour toute histoire, sinon celles inachevées, la fin est la mort. La fin est un drame. Toutes les histoires sont des drames. Toutes.</p>
+            <p>La boucle allait inévitablement se rompre. Vous vous ennuyiez dans votre hameau. Vous êtes partis. Vous avez rencontré Iphie et êtes restés avec elle, autant que vous le pouviez. Et puis vous vous êtes ennuyé à nouveau et avez décidé de partir encore, de découvrir la fin de votre route, de voir s’il y avait de nouvelles étapes... et puis de mourir.</p>
+            <p>Iphie vous a retrouvé dans des conditions extraordinaires. En vous éloignant tant et bien au-delà du point de non-retour, une partie de vous tentait-elle de faire apparaître Iphie, là où une entité banalement humaine n’aurait eu aucune chance de vous retrouver, et de révéler Iphie comme l’être surnaturel qu’elle vous parût parfois être&nbsp;?…</p>
+            <p>Mais qui que fut Iphie, cette fois, elle n’allait pas retrouver.</p>
+            <p>Vous deviez vous ennuyer ou mourir.</p>
+            <p>Alors, étalé dans le froid, ultimement, de fatigue, vos paupières entament de se fermer.</p>
+            <p>Vous vous demandez&nbsp;: Est-ce donc tout ce qu’il y avait à voir&nbsp;?… En votre for intérieur, secrètement, vous espériez avoir une destinée extraordinaire, et, à un moment de votre vie, ascender, sinon à la divinité, suffisamment pour la voir et la dire…</p>
+            <p>Est-ce là tout ce que peut être une existence&nbsp;?...</p>
+            <p>Vos paupières sont fermées. Une larme se forma et aussitôt gela.</p>
+            <p>Car votre corps fut perdu dans le froid glacé, il demeura pratiquement intact durant des dizaines d’années. Un jour, un homme vous trouva. Comme on le faisait d’ordinaire dans ces contrées, il vous incinéra, respectueusement, et adressant une prière à un Dieu que vous ne rencontrèrent jamais.</p>
+            <p>Vous êtes mort.</p>
+        </div>
+    </div>
+
+    <div id="pagination-container" data-pages="31"></div>
+
+    <hr>
+    <script src="../scripts/page_slicer.js"></script>
+    <script src="../scripts/page_switcher.js"></script>
+    <script src="../scripts/main_menu.js"></script>
+</body>
+
+
+</html>
