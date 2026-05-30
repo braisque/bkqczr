@@ -1,3 +1,3 @@
 #BKQCZR
 
-github branch of bkqczr.xyz
+github branch of http://bkqczr.xyz
