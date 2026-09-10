@@ -293,3 +293,7 @@ a:hover .index-image {
 #bar img {
     height: 28px;
 }
+
+.on-light-background #bar {
+    filter: drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) drop-shadow(0 0 4px black);
+}
