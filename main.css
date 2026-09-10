@@ -94,6 +94,10 @@ h1, ul, iframe, .needs-space-after, .banner, button, #map {
 	margin: 10px 20px;
 }
 
+.discreet-info-nav time {
+    text-align: right;
+}
+
 .split-items {
 	display: flex;
 	justify-content: space-between;
@@ -272,7 +276,6 @@ a:hover .index-image {
     justify-content: flex-end;
     gap: 14px;
     margin-bottom: 14px;
-    filter: drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) drop-shadow(0 0 4px black) drop-shadow(0 0 4px black);
 }
 
 #bar a {
