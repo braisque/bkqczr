@@ -29,7 +29,7 @@ body {
 	margin: var(--default-y-spacing) auto;
 }
 
-p, ul, h3 {
+p, ul, #pageContainer h2 {
 	font-size: 16px;
 	font-family: "open_sans";
 	line-height: 26px;
@@ -57,9 +57,12 @@ h1 {
 	color: var(--highlight-color);
 }
 
-h3 {
-	color: var(--highlight-color);
-	font-weight: normal;
+h2.title-brushed {
+	background: url("images/illustrations/separator.png") no-repeat left center / contain;
+	font: 20px "rubik_dirt";
+	color: var(--text-color);
+	line-height: 50px;
+	padding-left: 16px;
 }
 
 hr {
@@ -197,18 +200,6 @@ a:hover .index-image {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.section-title-overlay {
-	position: absolute;
-	font-size: 20px;
-	font-family: "rubik_dirt";
-	color: var(--highlight-color);
-	font-weight: normal;
-	top: 50%;
-	left: 16px;
-	transform: translate(0%, -50%);
-	text-shadow: 2px 2px black;
 }
 
 
