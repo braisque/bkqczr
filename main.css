@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "open_sans";
-	src: url('images/fonts/open_sans_regular.ttf') format('truetype');
+	src: url('images/fonts/open_sans.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: "rubik_dirt";
-	src: url('images/fonts/rubik_dirt_regular.ttf') format('truetype');
+	src: url('images/fonts/rubik_dirt.woff2') format('woff2');
 }
 
 :root {
