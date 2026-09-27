@@ -1,10 +1,12 @@
 (function ()
 {
     const root = new URL('../', document.currentScript.src).href;
+    const isOffline = window.location.protocol === 'file:';
+    const indexUrl = isOffline ? `${root}index.html` : root;
 
     const menuHTML = `
     <nav id="bar">
-        <a href="${root}index.html" title="Retourner à l'accueil" target="_parent">
+        <a href="${indexUrl}" title="Retourner à l'accueil" target="_parent">
             <img src="${root}images/icons/home.svg" alt="" />
             <span>Accueil</span>
         </a>
