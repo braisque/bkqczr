@@ -108,6 +108,10 @@ h1, ul, iframe, .needs-space-after, .banner, button, #map {
 	justify-content: space-between;
 }
 
+footer p {
+    text-indent: 0;
+}
+
 
 /* Buttons and links */
 a, summary {
