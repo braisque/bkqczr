@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Penumbra. Une bande dessinée en ligne racontant l'histoire de Delphe, une femme de Vihahers, à partir d'un jour où elle se fit agresser.">
+	<title>Penumbra</title>
+	<link rel="stylesheet" href="../main.css">
+	<link rel="icon" href="../images/icons/favicon.png">
+</head>
+
+
+<body>
+	<nav id="main_menu_placeholder"></nav>
+
+	<h1>Penumbra</h1>
+
+	<div id="comics-wrapper">
+		<div id="click-left" onclick="showPages(current - 1)"></div>
+		<div id="click-right" onclick="showPages(current + 1)"></div>
+
+		<div id="pageContainer">
+
+			<div class="pageDisplayed" id="page1"><img src="../../wip/c_1/01.jpg"></div>
+
+			<div class="pageHidden" id="page2"><img data-src="../../wip/c_1/page_02.jpg" alt="">
+				<div style="text-align: center; margin-left: 40%; margin-right: auto; position: absolute; top: 20%; font-size: 22px;">
+					<a onclick="showPages(3)">Chapitre I</a><br><br>
+					<a onclick="showPages(26)">Chapitre II</a><br><br>
+					<a onclick="showPages(47)">Chapitre III</a><br><br>
+					<a onclick="showPages(63)">Chapitre IV</a><br><br>
+					<a onclick="showPages(87)">Chapitre V</a><br><br>
+					<a onclick="showPages(121)">Chapitre VI</a><br><br>
+					<a onclick="showPages(138)">Chapitre VII</a><br><br>
+					<a onclick="showPages(159)">Chapitre VIII</a><br><br>
+					<a onclick="showPages(179)">Chapitre IX</a><br><br>
+					<a onclick="showPages(213)">Chapitre X</a><br><br>
+				</div>
+			</div>
+
+			<!-- Chapitre 1 -->
+			<div class="pageHidden" id="page3"><img data-src="../../wip/c_1/03.jpg" alt="Penumbra, page 3 sur 246"></div>
+			<div class="pageHidden" id="page4"><img data-src="../../wip/c_1/04.jpg" alt="Penumbra, page 4 sur 246"></div>
+			<div class="pageHidden" id="page5"><img data-src="../../wip/c_1/05.jpg" alt="Penumbra, page 5 sur 246"></div>
+			<div class="pageHidden" id="page6"><img data-src="../../wip/c_1/06.jpg" alt="Penumbra, page 6 sur 246"></div>
+			<div class="pageHidden" id="page7"><img data-src="../../wip/c_1/07.jpg" alt="Penumbra, page 7 sur 246"></div>
+			<div class="pageHidden" id="page8"><img data-src="../../wip/c_1/08.jpg" alt="Penumbra, page 8 sur 246"></div>
+			<div class="pageHidden" id="page9"><img data-src="../../wip/c_1/09.jpg" alt="Penumbra, page 9 sur 246"></div>
+			<div class="pageHidden" id="page10"><img data-src="../../wip/c_1/10.jpg" alt="Penumbra, page 10 sur 246"></div>
+			<div class="pageHidden" id="page11"><img data-src="../../wip/c_1/11.jpg" alt="Penumbra, page 11 sur 246"></div>
+			<div class="pageHidden" id="page12"><img data-src="../../wip/c_1/12.jpg" alt="Penumbra, page 12 sur 246"></div>
+			<div class="pageHidden" id="page13"><img data-src="../../wip/c_1/13.jpg" alt="Penumbra, page 13 sur 246"></div>
+			<div class="pageHidden" id="page14"><img data-src="../../wip/c_1/14.jpg" alt="Penumbra, page 14 sur 246"></div>
+			<div class="pageHidden" id="page15"><img data-src="../../wip/c_1/15.jpg" alt="Penumbra, page 15 sur 246"></div>
+			<div class="pageHidden" id="page16"><img data-src="../../wip/c_1/16.jpg" alt="Penumbra, page 16 sur 246"></div>
+			<div class="pageHidden" id="page17"><img data-src="../../wip/c_1/17.jpg" alt="Penumbra, page 17 sur 246"></div>
+			<div class="pageHidden" id="page18"><img data-src="../../wip/c_1/18.jpg" alt="Penumbra, page 18 sur 246"></div>
+			<div class="pageHidden" id="page19"><img data-src="../../wip/c_1/19.jpg" alt="Penumbra, page 19 sur 246"></div>
+			<div class="pageHidden" id="page20"><img data-src="../../wip/c_1/20.jpg" alt="Penumbra, page 20 sur 246"></div>
+			<div class="pageHidden" id="page21"><img data-src="../../wip/c_1/21.jpg" alt="Penumbra, page 21 sur 246"></div>
+			<div class="pageHidden" id="page22"><img data-src="../../wip/c_1/22.jpg" alt="Penumbra, page 22 sur 246"></div>
+			<div class="pageHidden" id="page23"><img data-src="../../wip/c_1/23.jpg" alt="Penumbra, page 23 sur 246"></div>
+			<div class="pageHidden" id="page24"><img data-src="../../wip/c_1/24.jpg" alt="Penumbra, page 24 sur 246"></div>
+			<div class="pageHidden" id="page25"><img data-src="../../wip/c_1/25.jpg" alt="Penumbra, page 25 sur 246"></div>
+
+			<!-- Chapitre 2 -->
+			<div class="pageHidden" id="page26"><img data-src="../../wip/c_2/01.jpg" alt="Penumbra, page 26 sur 246"></div>
+			<div class="pageHidden" id="page27"><img data-src="../../wip/c_2/02.jpg" alt="Penumbra, page 27 sur 246"></div>
+			<div class="pageHidden" id="page28"><img data-src="../../wip/c_2/03.jpg" alt="Penumbra, page 28 sur 246"></div>
+			<div class="pageHidden" id="page29"><img data-src="../../wip/c_2/04.jpg" alt="Penumbra, page 29 sur 246"></div>
+			<div class="pageHidden" id="page30"><img data-src="../../wip/c_2/05.jpg" alt="Penumbra, page 30 sur 246"></div>
+			<div class="pageHidden" id="page31"><img data-src="../../wip/c_2/06.jpg" alt="Penumbra, page 31 sur 246"></div>
+			<div class="pageHidden" id="page32"><img data-src="../../wip/c_2/07.jpg" alt="Penumbra, page 32 sur 246"></div>
+			<div class="pageHidden" id="page33"><img data-src="../../wip/c_2/08.jpg" alt="Penumbra, page 33 sur 246"></div>
+			<div class="pageHidden" id="page34"><img data-src="../../wip/c_2/09.jpg" alt="Penumbra, page 34 sur 246"></div>
+			<div class="pageHidden" id="page35"><img data-src="../../wip/c_2/10.jpg" alt="Penumbra, page 35 sur 246"></div>
+			<div class="pageHidden" id="page36"><img data-src="../../wip/c_2/11.jpg" alt="Penumbra, page 36 sur 246"></div>
+			<div class="pageHidden" id="page37"><img data-src="../../wip/c_2/12.jpg" alt="Penumbra, page 37 sur 246"></div>
+			<div class="pageHidden" id="page38"><img data-src="../../wip/c_2/13.jpg" alt="Penumbra, page 38 sur 246"></div>
+			<div class="pageHidden" id="page39"><img data-src="../../wip/c_2/14.jpg" alt="Penumbra, page 39 sur 246"></div>
+			<div class="pageHidden" id="page40"><img data-src="../../wip/c_2/15.jpg" alt="Penumbra, page 40 sur 246"></div>
+			<div class="pageHidden" id="page41"><img data-src="../../wip/c_2/16.jpg" alt="Penumbra, page 41 sur 246"></div>
+			<div class="pageHidden" id="page42"><img data-src="../../wip/c_2/17.jpg" alt="Penumbra, page 42 sur 246"></div>
+			<div class="pageHidden" id="page43"><img data-src="../../wip/c_2/18.jpg" alt="Penumbra, page 43 sur 246"></div>
+			<div class="pageHidden" id="page44"><img data-src="../../wip/c_2/19.jpg" alt="Penumbra, page 44 sur 246"></div>
+			<div class="pageHidden" id="page45"><img data-src="../../wip/c_2/20.jpg" alt="Penumbra, page 45 sur 246"></div>
+			<div class="pageHidden" id="page46"><img data-src="../../wip/c_2/21.jpg" alt="Penumbra, page 46 sur 246"></div>
+
+			<!-- Chapitre 3 -->
+			<div class="pageHidden" id="page47"><img data-src="../../wip/c_3/01.jpg" alt="Penumbra, page 47 sur 246"></div>
+			<div class="pageHidden" id="page48"><img data-src="../../wip/c_3/02.jpg" alt="Penumbra, page 48 sur 246"></div>
+			<div class="pageHidden" id="page49"><img data-src="../../wip/c_3/03.jpg" alt="Penumbra, page 49 sur 246"></div>
+			<div class="pageHidden" id="page50"><img data-src="../../wip/c_3/04.jpg" alt="Penumbra, page 50 sur 246"></div>
+			<div class="pageHidden" id="page51"><img data-src="../../wip/c_3/05.jpg" alt="Penumbra, page 51 sur 246"></div>
+			<div class="pageHidden" id="page52"><img data-src="../../wip/c_3/06.jpg" alt="Penumbra, page 52 sur 246"></div>
+			<div class="pageHidden" id="page53"><img data-src="../../wip/c_3/07.jpg" alt="Penumbra, page 53 sur 246"></div>
+			<div class="pageHidden" id="page54"><img data-src="../../wip/c_3/08.jpg" alt="Penumbra, page 54 sur 246"></div>
+			<div class="pageHidden" id="page55"><img data-src="../../wip/c_3/09.jpg" alt="Penumbra, page 55 sur 246"></div>
+			<div class="pageHidden" id="page56"><img data-src="../../wip/c_3/10.jpg" alt="Penumbra, page 56 sur 246"></div>
+			<div class="pageHidden" id="page57"><img data-src="../../wip/c_3/11.jpg" alt="Penumbra, page 57 sur 246"></div>
+			<div class="pageHidden" id="page58"><img data-src="../../wip/c_3/12.jpg" alt="Penumbra, page 58 sur 246"></div>
+			<div class="pageHidden" id="page59"><img data-src="../../wip/c_3/13.jpg" alt="Penumbra, page 59 sur 246"></div>
+			<div class="pageHidden" id="page60"><img data-src="../../wip/c_3/14.jpg" alt="Penumbra, page 60 sur 246"></div>
+			<div class="pageHidden" id="page61"><img data-src="../../wip/c_3/15.jpg" alt="Penumbra, page 61 sur 246"></div>
+			<div class="pageHidden" id="page62"><img data-src="../../wip/c_3/16.jpg" alt="Penumbra, page 62 sur 246"></div>
+
+			<!-- Chapitre 4 -->
+			<div class="pageHidden" id="page63"><img data-src="../../wip/c_4/01.jpg" alt="Penumbra, page 63 sur 246"></div>
+			<div class="pageHidden" id="page64"><img data-src="../../wip/c_4/02.jpg" alt="Penumbra, page 64 sur 246"></div>
+			<div class="pageHidden" id="page65"><img data-src="../../wip/c_4/03.jpg" alt="Penumbra, page 65 sur 246"></div>
+			<div class="pageHidden" id="page66"><img data-src="../../wip/c_4/04.jpg" alt="Penumbra, page 66 sur 246"></div>
+			<div class="pageHidden" id="page67"><img data-src="../../wip/c_4/05.jpg" alt="Penumbra, page 67 sur 246"></div>
+			<div class="pageHidden" id="page68"><img data-src="../../wip/c_4/06.jpg" alt="Penumbra, page 68 sur 246"></div>
+			<div class="pageHidden" id="page69"><img data-src="../../wip/c_4/07.jpg" alt="Penumbra, page 69 sur 246"></div>
+			<div class="pageHidden" id="page70"><img data-src="../../wip/c_4/08.jpg" alt="Penumbra, page 70 sur 246"></div>
+			<div class="pageHidden" id="page71"><img data-src="../../wip/c_4/09.jpg" alt="Penumbra, page 71 sur 246"></div>
+			<div class="pageHidden" id="page72"><img data-src="../../wip/c_4/10.jpg" alt="Penumbra, page 72 sur 246"></div>
+			<div class="pageHidden" id="page73"><img data-src="../../wip/c_4/11.jpg" alt="Penumbra, page 73 sur 246"></div>
+			<div class="pageHidden" id="page74"><img data-src="../../wip/c_4/12.jpg" alt="Penumbra, page 74 sur 246"></div>
+			<div class="pageHidden" id="page75"><img data-src="../../wip/c_4/13.jpg" alt="Penumbra, page 75 sur 246"></div>
+			<div class="pageHidden" id="page76"><img data-src="../../wip/c_4/14.jpg" alt="Penumbra, page 76 sur 246"></div>
+			<div class="pageHidden" id="page77"><img data-src="../../wip/c_4/15.jpg" alt="Penumbra, page 77 sur 246"></div>
+			<div class="pageHidden" id="page78"><img data-src="../../wip/c_4/16.jpg" alt="Penumbra, page 78 sur 246"></div>
+			<div class="pageHidden" id="page79"><img data-src="../../wip/c_4/17.jpg" alt="Penumbra, page 79 sur 246"></div>
+			<div class="pageHidden" id="page80"><img data-src="../../wip/c_4/18.jpg" alt="Penumbra, page 80 sur 246"></div>
+			<div class="pageHidden" id="page81"><img data-src="../../wip/c_4/19.jpg" alt="Penumbra, page 81 sur 246"></div>
+			<div class="pageHidden" id="page82"><img data-src="../../wip/c_4/20.jpg" alt="Penumbra, page 82 sur 246"></div>
+			<div class="pageHidden" id="page83"><img data-src="../../wip/c_4/21.jpg" alt="Penumbra, page 83 sur 246"></div>
+			<div class="pageHidden" id="page84"><img data-src="../../wip/c_4/22.jpg" alt="Penumbra, page 84 sur 246"></div>
+			<div class="pageHidden" id="page85"><img data-src="../../wip/c_4/23.jpg" alt="Penumbra, page 85 sur 246"></div>
+			<div class="pageHidden" id="page86"><img data-src="../../wip/c_4/24.jpg" alt="Penumbra, page 86 sur 246"></div>
+
+			<!-- Chapitre 5 -->
+			<div class="pageHidden" id="page87"><img data-src="../../wip/c_5/01.jpg" alt="Penumbra, page 87 sur 246"></div>
+			<div class="pageHidden" id="page88"><img data-src="../../wip/c_5/02.jpg" alt="Penumbra, page 88 sur 246"></div>
+			<div class="pageHidden" id="page89"><img data-src="../../wip/c_5/03.jpg" alt="Penumbra, page 89 sur 246"></div>
+			<div class="pageHidden" id="page90"><img data-src="../../wip/c_5/04.jpg" alt="Penumbra, page 90 sur 246"></div>
+			<div class="pageHidden" id="page91"><img data-src="../../wip/c_5/05.jpg" alt="Penumbra, page 91 sur 246"></div>
+			<div class="pageHidden" id="page92"><img data-src="../../wip/c_5/06.jpg" alt="Penumbra, page 92 sur 246"></div>
+			<div class="pageHidden" id="page93"><img data-src="../../wip/c_5/07.jpg" alt="Penumbra, page 93 sur 246"></div>
+			<div class="pageHidden" id="page94"><img data-src="../../wip/c_5/08.jpg" alt="Penumbra, page 94 sur 246"></div>
+			<div class="pageHidden" id="page95"><img data-src="../../wip/c_5/09.jpg" alt="Penumbra, page 95 sur 246"></div>
+			<div class="pageHidden" id="page96"><img data-src="../../wip/c_5/10.jpg" alt="Penumbra, page 96 sur 246"></div>
+			<div class="pageHidden" id="page97"><img data-src="../../wip/c_5/11.jpg" alt="Penumbra, page 97 sur 246"></div>
+			<div class="pageHidden" id="page98"><img data-src="../../wip/c_5/12.jpg" alt="Penumbra, page 98 sur 246"></div>
+			<div class="pageHidden" id="page99"><img data-src="../../wip/c_5/13.jpg" alt="Penumbra, page 99 sur 246"></div>
+			<div class="pageHidden" id="page100"><img data-src="../../wip/c_5/14.jpg" alt="Penumbra, page 100 sur 246"></div>
+			<div class="pageHidden" id="page101"><img data-src="../../wip/c_5/15.jpg" alt="Penumbra, page 101 sur 246"></div>
+			<div class="pageHidden" id="page102"><img data-src="../../wip/c_5/16.jpg" alt="Penumbra, page 102 sur 246"></div>
+			<div class="pageHidden" id="page103"><img data-src="../../wip/c_5/17.jpg" alt="Penumbra, page 103 sur 246"></div>
+			<div class="pageHidden" id="page104"><img data-src="../../wip/c_5/18.jpg" alt="Penumbra, page 104 sur 246"></div>
+			<div class="pageHidden" id="page105"><img data-src="../../wip/c_5/19.jpg" alt="Penumbra, page 105 sur 246"></div>
+			<div class="pageHidden" id="page106"><img data-src="../../wip/c_5/20.jpg" alt="Penumbra, page 106 sur 246"></div>
+			<div class="pageHidden" id="page107"><img data-src="../../wip/c_5/21.jpg" alt="Penumbra, page 107 sur 246"></div>
+			<div class="pageHidden" id="page108"><img data-src="../../wip/c_5/22.jpg" alt="Penumbra, page 108 sur 246"></div>
+			<div class="pageHidden" id="page109"><img data-src="../../wip/c_5/23.jpg" alt="Penumbra, page 109 sur 246"></div>
+			<div class="pageHidden" id="page110"><img data-src="../../wip/c_5/24.jpg" alt="Penumbra, page 110 sur 246"></div>
+			<div class="pageHidden" id="page111"><img data-src="../../wip/c_5/25.jpg" alt="Penumbra, page 111 sur 246"></div>
+			<div class="pageHidden" id="page112"><img data-src="../../wip/c_5/26.jpg" alt="Penumbra, page 112 sur 246"></div>
+			<div class="pageHidden" id="page113"><img data-src="../../wip/c_5/27.jpg" alt="Penumbra, page 113 sur 246"></div>
+			<div class="pageHidden" id="page114"><img data-src="../../wip/c_5/28.jpg" alt="Penumbra, page 114 sur 246"></div>
+			<div class="pageHidden" id="page115"><img data-src="../../wip/c_5/29.jpg" alt="Penumbra, page 115 sur 246"></div>
+			<div class="pageHidden" id="page116"><img data-src="../../wip/c_5/30.jpg" alt="Penumbra, page 116 sur 246"></div>
+			<div class="pageHidden" id="page117"><img data-src="../../wip/c_5/31.jpg" alt="Penumbra, page 117 sur 246"></div>
+			<div class="pageHidden" id="page118"><img data-src="../../wip/c_5/32.jpg" alt="Penumbra, page 118 sur 246"></div>
+			<div class="pageHidden" id="page119"><img data-src="../../wip/c_5/33.jpg" alt="Penumbra, page 119 sur 246"></div>
+			<div class="pageHidden" id="page120"><img data-src="../../wip/c_5/34.jpg" alt="Penumbra, page 120 sur 246"></div>
+
+			<!-- Chapitre 6 -->
+			<div class="pageHidden" id="page121"><img data-src="../../wip/c_6/01.jpg" alt="Penumbra, page 121 sur 246"></div>
+			<div class="pageHidden" id="page122"><img data-src="../../wip/c_6/02.jpg" alt="Penumbra, page 122 sur 246"></div>
+			<div class="pageHidden" id="page123"><img data-src="../../wip/c_6/03.jpg" alt="Penumbra, page 123 sur 246"></div>
+			<div class="pageHidden" id="page124"><img data-src="../../wip/c_6/04.jpg" alt="Penumbra, page 124 sur 246"></div>
+			<div class="pageHidden" id="page125"><img data-src="../../wip/c_6/05.jpg" alt="Penumbra, page 125 sur 246"></div>
+			<div class="pageHidden" id="page126"><img data-src="../../wip/c_6/06.jpg" alt="Penumbra, page 126 sur 246"></div>
+			<div class="pageHidden" id="page127"><img data-src="../../wip/c_6/07.jpg" alt="Penumbra, page 127 sur 246"></div>
+			<div class="pageHidden" id="page128"><img data-src="../../wip/c_6/08.jpg" alt="Penumbra, page 128 sur 246"></div>
+			<div class="pageHidden" id="page129"><img data-src="../../wip/c_6/09.jpg" alt="Penumbra, page 129 sur 246"></div>
+			<div class="pageHidden" id="page130"><img data-src="../../wip/c_6/10.jpg" alt="Penumbra, page 130 sur 246"></div>
+			<div class="pageHidden" id="page131"><img data-src="../../wip/c_6/11.jpg" alt="Penumbra, page 131 sur 246"></div>
+			<div class="pageHidden" id="page132"><img data-src="../../wip/c_6/12.jpg" alt="Penumbra, page 132 sur 246"></div>
+			<div class="pageHidden" id="page133"><img data-src="../../wip/c_6/13.jpg" alt="Penumbra, page 133 sur 246"></div>
+			<div class="pageHidden" id="page134"><img data-src="../../wip/c_6/14.jpg" alt="Penumbra, page 134 sur 246"></div>
+			<div class="pageHidden" id="page135"><img data-src="../../wip/c_6/15.jpg" alt="Penumbra, page 135 sur 246"></div>
+			<div class="pageHidden" id="page136"><img data-src="../../wip/c_6/16.jpg" alt="Penumbra, page 136 sur 246"></div>
+			<div class="pageHidden" id="page137"><img data-src="../../wip/c_6/17.jpg" alt="Penumbra, page 137 sur 246"></div>
+
+			<!-- Chapitre 7 -->
+			<div class="pageHidden" id="page138"><img data-src="../../wip/c_7/01.jpg" alt="Penumbra, page 138 sur 246"></div>
+			<div class="pageHidden" id="page139"><img data-src="../../wip/c_7/02.jpg" alt="Penumbra, page 139 sur 246"></div>
+			<div class="pageHidden" id="page140"><img data-src="../../wip/c_7/03.jpg" alt="Penumbra, page 140 sur 246"></div>
+			<div class="pageHidden" id="page141"><img data-src="../../wip/c_7/04.jpg" alt="Penumbra, page 141 sur 246"></div>
+			<div class="pageHidden" id="page142"><img data-src="../../wip/c_7/05.jpg" alt="Penumbra, page 142 sur 246"></div>
+			<div class="pageHidden" id="page143"><img data-src="../../wip/c_7/06.jpg" alt="Penumbra, page 143 sur 246"></div>
+			<div class="pageHidden" id="page144"><img data-src="../../wip/c_7/07.jpg" alt="Penumbra, page 144 sur 246"></div>
+			<div class="pageHidden" id="page145"><img data-src="../../wip/c_7/08.jpg" alt="Penumbra, page 145 sur 246"></div>
+			<div class="pageHidden" id="page146"><img data-src="../../wip/c_7/09.jpg" alt="Penumbra, page 146 sur 246"></div>
+			<div class="pageHidden" id="page147"><img data-src="../../wip/c_7/10.jpg" alt="Penumbra, page 147 sur 246"></div>
+			<div class="pageHidden" id="page148"><img data-src="../../wip/c_7/11.jpg" alt="Penumbra, page 148 sur 246"></div>
+			<div class="pageHidden" id="page149"><img data-src="../../wip/c_7/12.jpg" alt="Penumbra, page 149 sur 246"></div>
+			<div class="pageHidden" id="page150"><img data-src="../../wip/c_7/13.jpg" alt="Penumbra, page 150 sur 246"></div>
+			<div class="pageHidden" id="page151"><img data-src="../../wip/c_7/14.jpg" alt="Penumbra, page 151 sur 246"></div>
+			<div class="pageHidden" id="page152"><img data-src="../../wip/c_7/15.jpg" alt="Penumbra, page 152 sur 246"></div>
+			<div class="pageHidden" id="page153"><img data-src="../../wip/c_7/16.jpg" alt="Penumbra, page 153 sur 246"></div>
+			<div class="pageHidden" id="page154"><img data-src="../../wip/c_7/17.jpg" alt="Penumbra, page 154 sur 246"></div>
+			<div class="pageHidden" id="page155"><img data-src="../../wip/c_7/18.jpg" alt="Penumbra, page 155 sur 246"></div>
+			<div class="pageHidden" id="page156"><img data-src="../../wip/c_7/19.jpg" alt="Penumbra, page 156 sur 246"></div>
+			<div class="pageHidden" id="page157"><img data-src="../../wip/c_7/20.jpg" alt="Penumbra, page 157 sur 246"></div>
+			<div class="pageHidden" id="page158"><img data-src="../../wip/c_7/21.jpg" alt="Penumbra, page 158 sur 246"></div>
+
+			<!-- Chapitre 8 -->
+			<div class="pageHidden" id="page159"><img data-src="../../wip/c_8/01.jpg" alt="Penumbra, page 159 sur 246"></div>
+			<div class="pageHidden" id="page160"><img data-src="../../wip/c_8/02.jpg" alt="Penumbra, page 160 sur 246"></div>
+			<div class="pageHidden" id="page161"><img data-src="../../wip/c_8/03.jpg" alt="Penumbra, page 161 sur 246"></div>
+			<div class="pageHidden" id="page162"><img data-src="../../wip/c_8/04.jpg" alt="Penumbra, page 162 sur 246"></div>
+			<div class="pageHidden" id="page163"><img data-src="../../wip/c_8/05.jpg" alt="Penumbra, page 163 sur 246"></div>
+			<div class="pageHidden" id="page164"><img data-src="../../wip/c_8/06.jpg" alt="Penumbra, page 164 sur 246"></div>
+			<div class="pageHidden" id="page165"><img data-src="../../wip/c_8/07.jpg" alt="Penumbra, page 165 sur 246"></div>
+			<div class="pageHidden" id="page166"><img data-src="../../wip/c_8/08.jpg" alt="Penumbra, page 166 sur 246"></div>
+			<div class="pageHidden" id="page167"><img data-src="../../wip/c_8/09.jpg" alt="Penumbra, page 167 sur 246"></div>
+			<div class="pageHidden" id="page168"><img data-src="../../wip/c_8/10.jpg" alt="Penumbra, page 168 sur 246"></div>
+			<div class="pageHidden" id="page169"><img data-src="../../wip/c_8/11.jpg" alt="Penumbra, page 169 sur 246"></div>
+			<div class="pageHidden" id="page170"><img data-src="../../wip/c_8/12.jpg" alt="Penumbra, page 170 sur 246"></div>
+			<div class="pageHidden" id="page171"><img data-src="../../wip/c_8/13.jpg" alt="Penumbra, page 171 sur 246"></div>
+			<div class="pageHidden" id="page172"><img data-src="../../wip/c_8/14.jpg" alt="Penumbra, page 172 sur 246"></div>
+			<div class="pageHidden" id="page173"><img data-src="../../wip/c_8/15.jpg" alt="Penumbra, page 173 sur 246"></div>
+			<div class="pageHidden" id="page174"><img data-src="../../wip/c_8/16.jpg" alt="Penumbra, page 174 sur 246"></div>
+			<div class="pageHidden" id="page175"><img data-src="../../wip/c_8/17.jpg" alt="Penumbra, page 175 sur 246"></div>
+			<div class="pageHidden" id="page176"><img data-src="../../wip/c_8/18.jpg" alt="Penumbra, page 176 sur 246"></div>
+			<div class="pageHidden" id="page177"><img data-src="../../wip/c_8/19.jpg" alt="Penumbra, page 177 sur 246"></div>
+			<div class="pageHidden" id="page178"><img data-src="../../wip/c_8/20.jpg" alt="Penumbra, page 178 sur 246"></div>
+
+			<!-- Chapitre 9 -->
+			<div class="pageHidden" id="page179"><img data-src="../../wip/c_9/01.jpg" alt="Penumbra, page 179 sur 246"></div>
+			<div class="pageHidden" id="page180"><img data-src="../../wip/c_9/02.jpg" alt="Penumbra, page 180 sur 246"></div>
+			<div class="pageHidden" id="page181"><img data-src="../../wip/c_9/03.jpg" alt="Penumbra, page 181 sur 246"></div>
+			<div class="pageHidden" id="page182"><img data-src="../../wip/c_9/04.jpg" alt="Penumbra, page 182 sur 246"></div>
+			<div class="pageHidden" id="page183"><img data-src="../../wip/c_9/05.jpg" alt="Penumbra, page 183 sur 246"></div>
+			<div class="pageHidden" id="page184"><img data-src="../../wip/c_9/06.jpg" alt="Penumbra, page 184 sur 246"></div>
+			<div class="pageHidden" id="page185"><img data-src="../../wip/c_9/07.jpg" alt="Penumbra, page 185 sur 246"></div>
+			<div class="pageHidden" id="page186"><img data-src="../../wip/c_9/08.jpg" alt="Penumbra, page 186 sur 246"></div>
+			<div class="pageHidden" id="page187"><img data-src="../../wip/c_9/09.jpg" alt="Penumbra, page 187 sur 246"></div>
+			<div class="pageHidden" id="page188"><img data-src="../../wip/c_9/10.jpg" alt="Penumbra, page 188 sur 246"></div>
+			<div class="pageHidden" id="page189"><img data-src="../../wip/c_9/11.jpg" alt="Penumbra, page 189 sur 246"></div>
+			<div class="pageHidden" id="page190"><img data-src="../../wip/c_9/12.jpg" alt="Penumbra, page 190 sur 246"></div>
+			<div class="pageHidden" id="page191"><img data-src="../../wip/c_9/13.jpg" alt="Penumbra, page 191 sur 246"></div>
+			<div class="pageHidden" id="page192"><img data-src="../../wip/c_9/14.jpg" alt="Penumbra, page 192 sur 246"></div>
+			<div class="pageHidden" id="page193"><img data-src="../../wip/c_9/15.jpg" alt="Penumbra, page 193 sur 246"></div>
+			<div class="pageHidden" id="page194"><img data-src="../../wip/c_9/16.jpg" alt="Penumbra, page 194 sur 246"></div>
+			<div class="pageHidden" id="page195"><img data-src="../../wip/c_9/17.jpg" alt="Penumbra, page 195 sur 246"></div>
+			<div class="pageHidden" id="page196"><img data-src="../../wip/c_9/18.jpg" alt="Penumbra, page 196 sur 246"></div>
+			<div class="pageHidden" id="page197"><img data-src="../../wip/c_9/19.jpg" alt="Penumbra, page 197 sur 246"></div>
+			<div class="pageHidden" id="page198"><img data-src="../../wip/c_9/20.jpg" alt="Penumbra, page 198 sur 246"></div>
+			<div class="pageHidden" id="page199"><img data-src="../../wip/c_9/21.jpg" alt="Penumbra, page 199 sur 246"></div>
+			<div class="pageHidden" id="page200"><img data-src="../../wip/c_9/22.jpg" alt="Penumbra, page 200 sur 246"></div>
+			<div class="pageHidden" id="page201"><img data-src="../../wip/c_9/23.jpg" alt="Penumbra, page 201 sur 246"></div>
+			<div class="pageHidden" id="page202"><img data-src="../../wip/c_9/24.jpg" alt="Penumbra, page 202 sur 246"></div>
+			<div class="pageHidden" id="page203"><img data-src="../../wip/c_9/25.jpg" alt="Penumbra, page 203 sur 246"></div>
+			<div class="pageHidden" id="page204"><img data-src="../../wip/c_9/26.jpg" alt="Penumbra, page 204 sur 246"></div>
+			<div class="pageHidden" id="page205"><img data-src="../../wip/c_9/27.jpg" alt="Penumbra, page 205 sur 246"></div>
+			<div class="pageHidden" id="page206"><img data-src="../../wip/c_9/28.jpg" alt="Penumbra, page 206 sur 246"></div>
+			<div class="pageHidden" id="page207"><img data-src="../../wip/c_9/29.jpg" alt="Penumbra, page 207 sur 246"></div>
+			<div class="pageHidden" id="page208"><img data-src="../../wip/c_9/30.jpg" alt="Penumbra, page 208 sur 246"></div>
+			<div class="pageHidden" id="page209"><img data-src="../../wip/c_9/31.jpg" alt="Penumbra, page 209 sur 246"></div>
+			<div class="pageHidden" id="page210"><img data-src="../../wip/c_9/32.jpg" alt="Penumbra, page 210 sur 246"></div>
+			<div class="pageHidden" id="page211"><img data-src="../../wip/c_9/33.jpg" alt="Penumbra, page 211 sur 246"></div>
+			<div class="pageHidden" id="page212"><img data-src="../../wip/c_9/34.jpg" alt="Penumbra, page 212 sur 246"></div>
+
+			<!-- Chapitre 10 -->
+			<div class="pageHidden" id="page213"><img data-src="../../wip/c_10/01.jpg" alt="Penumbra, page 213 sur 246"></div>
+			<div class="pageHidden" id="page214"><img data-src="../../wip/c_10/02.jpg" alt="Penumbra, page 214 sur 246"></div>
+			<div class="pageHidden" id="page215"><img data-src="../../wip/c_10/03.jpg" alt="Penumbra, page 215 sur 246"></div>
+			<div class="pageHidden" id="page216"><img data-src="../../wip/c_10/04.jpg" alt="Penumbra, page 216 sur 246"></div>
+			<div class="pageHidden" id="page217"><img data-src="../../wip/c_10/05.jpg" alt="Penumbra, page 217 sur 246"></div>
+			<div class="pageHidden" id="page218"><img data-src="../../wip/c_10/06.jpg" alt="Penumbra, page 218 sur 246"></div>
+			<div class="pageHidden" id="page219"><img data-src="../../wip/c_10/07.jpg" alt="Penumbra, page 219 sur 246"></div>
+			<div class="pageHidden" id="page220"><img data-src="../../wip/c_10/08.jpg" alt="Penumbra, page 220 sur 246"></div>
+			<div class="pageHidden" id="page221"><img data-src="../../wip/c_10/09.jpg" alt="Penumbra, page 221 sur 246"></div>
+			<div class="pageHidden" id="page222"><img data-src="../../wip/c_10/10.jpg" alt="Penumbra, page 222 sur 246"></div>
+			<div class="pageHidden" id="page223"><img data-src="../../wip/c_10/11.jpg" alt="Penumbra, page 223 sur 246"></div>
+			<div class="pageHidden" id="page224"><img data-src="../../wip/c_10/12.jpg" alt="Penumbra, page 224 sur 246"></div>
+			<div class="pageHidden" id="page225"><img data-src="../../wip/c_10/13.jpg" alt="Penumbra, page 225 sur 246"></div>
+			<div class="pageHidden" id="page226"><img data-src="../../wip/c_10/14.jpg" alt="Penumbra, page 226 sur 246"></div>
+			<div class="pageHidden" id="page227"><img data-src="../../wip/c_10/15.jpg" alt="Penumbra, page 227 sur 246"></div>
+			<div class="pageHidden" id="page228"><img data-src="../../wip/c_10/16.jpg" alt="Penumbra, page 228 sur 246"></div>
+			<div class="pageHidden" id="page229"><img data-src="../../wip/c_10/17.jpg" alt="Penumbra, page 229 sur 246"></div>
+			<div class="pageHidden" id="page230"><img data-src="../../wip/c_10/18.jpg" alt="Penumbra, page 230 sur 246"></div>
+			<div class="pageHidden" id="page231"><img data-src="../../wip/c_10/19.jpg" alt="Penumbra, page 231 sur 246"></div>
+			<div class="pageHidden" id="page232"><img data-src="../../wip/c_10/20.jpg" alt="Penumbra, page 232 sur 246"></div>
+			<div class="pageHidden" id="page233"><img data-src="../../wip/c_10/21.jpg" alt="Penumbra, page 233 sur 246"></div>
+			<div class="pageHidden" id="page234"><img data-src="../../wip/c_10/22.jpg" alt="Penumbra, page 234 sur 246"></div>
+			<div class="pageHidden" id="page235"><img data-src="../../wip/c_10/23.jpg" alt="Penumbra, page 235 sur 246"></div>
+			<div class="pageHidden" id="page236"><img data-src="../../wip/c_10/24.jpg" alt="Penumbra, page 236 sur 246"></div>
+			<div class="pageHidden" id="page237"><img data-src="../../wip/c_10/25.jpg" alt="Penumbra, page 237 sur 246"></div>
+			<div class="pageHidden" id="page238"><img data-src="../../wip/c_10/26.jpg" alt="Penumbra, page 238 sur 246"></div>
+			<div class="pageHidden" id="page239"><img data-src="../../wip/c_10/27.jpg" alt="Penumbra, page 239 sur 246"></div>
+			<div class="pageHidden" id="page240"><img data-src="../../wip/c_10/28.jpg" alt="Penumbra, page 240 sur 246"></div>
+			<div class="pageHidden" id="page241"><img data-src="../../wip/c_10/29.jpg" alt="Penumbra, page 241 sur 246"></div>
+			<div class="pageHidden" id="page242"><img data-src="../../wip/c_10/30.jpg" alt="Penumbra, page 242 sur 246"></div>
+			<div class="pageHidden" id="page243"><img data-src="../../wip/c_10/31.jpg" alt="Penumbra, page 243 sur 246"></div>
+			<div class="pageHidden" id="page244"><img data-src="../../wip/c_10/32.jpg" alt="Penumbra, page 244 sur 246"></div>
+			<div class="pageHidden" id="page245"><img data-src="../../wip/c_10/33.jpg" alt="Penumbra, page 245 sur 246"></div>
+			<div class="pageHidden" id="page246"><img data-src="../../wip/c_10/34.jpg" alt="Penumbra, page 246 sur 246"></div>
+
+		</div>
+
+	</div>
+
+	<div id="pagination-container" data-pages="246" prev-chapter="penumbra_index.html" next-chapter="chapter_2.html"></div>
+
+	<hr>
+	<script src="../scripts/page_slicer.js"></script>
+	<script src="../scripts/page_switcher.js"></script>
+	<script src="../scripts/main_menu.js"></script>
+</body>
+
+
+</html>
