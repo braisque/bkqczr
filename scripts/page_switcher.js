@@ -8,6 +8,7 @@ function showPages(id = 1)
 
         return;
 
+    window.scrollTo(0, 0);
     document.getElementById("pageContainer").style.minHeight = document.getElementById("pageContainer").offsetHeight + "px";
 
     curr_page = document.getElementById("page" + current);

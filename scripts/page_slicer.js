@@ -7,7 +7,7 @@ function pageSlicer(totalPages)
     let links = "";
     for (let i = 1; i <= totalPages; i++)
     {
-        links += `<a href="#" ${i === 1 ? 'class="page"' : ''} id="${i}" onclick="showPages(${i})">${i}</a> `;
+        links += `<a href="#" ${i === 1 ? 'class="page"' : ''} id="${i}" onclick="event.preventDefault(); showPages(${i});">${i}</a> `;
     }
 
     const container = document.getElementById('pagination-container');
@@ -15,8 +15,8 @@ function pageSlicer(totalPages)
     {
         container.innerHTML = `
         <nav class="discreet-info-nav split-items">
-            <a href="#" onclick="showPages(current - 1)">${labelPrev}</a>
-            <a href="#" onclick="showPages(current + 1)">${labelNext}</a>
+            <a href="#" onclick="event.preventDefault(); showPages(current - 1);">${labelPrev}</a>
+            <a href="#" onclick="event.preventDefault(); showPages(current + 1);">${labelNext}</a>
         </nav>
         <hr>
         <nav class="discreet-info-nav">pages&nbsp;: ${links}</nav>`;
